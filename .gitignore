@@ -1,0 +1,18 @@
+# Ignore build artifacts
+*.pem
+*.log
+*.tfstate
+*.tfstate.backup
+*.bak
+*.swp
+
+
+# Ignore Docker build context artifacts
+.docker/
+.dockerignore
+
+# Ignore IDE and OS-specific files
+.idea/
+.vscode/
+.DS_Store
+.terraform
